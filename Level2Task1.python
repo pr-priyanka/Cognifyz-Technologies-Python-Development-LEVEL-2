@@ -1,0 +1,14 @@
+#LEVEL 2 TASK 1
+#GUESSING GAME
+
+import random
+n=random.randint(1,100)
+
+while(n!=num1):
+    num1=int(input("enter your guess"))
+    if(num1>n):
+        print("too high")
+    elif(num1<n):
+        print("too low")
+print("correct")        
+    
